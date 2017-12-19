@@ -1,10 +1,9 @@
-//
-//  Devired.hpp
-//  CPlus
-//
-//  Created by zhxsheng on 2017/6/25.
-//  Copyright © 2017年 zhxsheng. All rights reserved.
-//
+/*
+ * @Author: zhxsheng 
+ * @Date: 2017-12-19 14:37:25 
+ * @Last Modified by:   zhxsheng 
+ * @Last Modified time: 2017-12-19 14:37:25 
+ */
 
 #ifndef Devired_hpp
 #define Devired_hpp

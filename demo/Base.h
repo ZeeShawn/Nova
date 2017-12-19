@@ -1,10 +1,9 @@
-//
-//  Base.hpp
-//  CPlus
-//
-//  Created by zhxsheng on 2017/6/25.
-//  Copyright © 2017年 zhxsheng. All rights reserved.
-//
+/*
+ * @Author: zhxsheng 
+ * @Date: 2017-12-19 14:37:11 
+ * @Last Modified by:   zhxsheng 
+ * @Last Modified time: 2017-12-19 14:37:11 
+ */
 
 #ifndef Base_hpp
 #define Base_hpp

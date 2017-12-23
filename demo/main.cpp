@@ -22,20 +22,21 @@ void constFuncTest();
 void lessThanTest();
 
 int main(int argc, const char * argv[]) {
-	pid_t fpid = fork();
-	if (fpid == 0)
-	{
-		std::cout <<"i am son" << std::endl;
-	}
-	else if (fpid > 0)
-	{
-		std::cout << "i am father" << std::endl;
-	}
-	else
-	{
-		std::cout <<"fork error" << std::endl;
-	}
+	// pid_t fpid = fork();
+	// if (fpid == 0)
+	// {
+	// 	std::cout <<"i am son" << std::endl;
+	// }
+	// else if (fpid > 0)
+	// {
+	// 	std::cout << "i am father" << std::endl;
+	// }
+	// else
+	// {
+	// 	std::cout <<"fork error" << std::endl;
+	// }
 
+	vptrTest();
 	std::cout << "end" << std::endl;
     return 0;
 }
@@ -54,7 +55,7 @@ void constFuncTest(){
 	Base *p = &b;
 	const Base *ptr = &b;
 	ptr->constFunc();
-	//ptr->nonConstFunc(); error
+	// ptr->nonConstFunc(); error
 	p->nonConstFunc(10);
 	p->constFunc();
 }
